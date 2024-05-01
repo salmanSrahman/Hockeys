@@ -19,11 +19,15 @@
             extend: {
               colors: {
                 warning: '#FF4240',
-                warning: '#FF4240',
+                primary: '#131318',
               },
               fontFamily:{
                 "manrope": ["Manrope"]
+              },
+              maxWidth:{
+                container: "1170px"
               }
+
             }
           }
         }
@@ -31,7 +35,42 @@
       <!-- tailwind config -->
 
 </head>
-<body>
-    <h1 class="font-manrope text-2xl">Hockeys web</h1>
+<body class="font-manrope">
+
+    <header>
+        <nav class="max-w-container mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a href="#" class="text-base font-medium text-warning">Home</a></li>
+                        <li><a href="#" class="text-base hover:text-warning font-medium text-primary">About</a></li>
+                        <li><a href="#" class="text-base hover:text-warning font-medium text-primary">Pages</a></li>
+                        <li><a href="#" class="text-base hover:text-warning font-medium text-primary">Blog</a></li>
+                        <li><a href="#" class="text-base hover:text-warning font-medium text-primary">Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="font-manrope font-extrabold text-primary text-2xl md:text-4xl">Snap Hockey<span class="text-warning">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a href="#" class="text-base font-medium text-warning">Home</a></li>
+                    <li><a href="#" class="text-base hover:text-warning font-medium text-primary">About</a></li>
+                    <li><a href="#" class="text-base hover:text-warning font-medium text-primary">Pages</a></li>
+                    <li><a href="#" class="text-base hover:text-warning font-medium text-primary">Blog</a></li>
+                    <li><a href="#" class="text-base hover:text-warning font-medium text-primary">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn bg-warning text-white font-medium text-base md:text-xl hover:bg-white hover:text-warning hover:border-warning px-4 md:px-8">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+
+
 </body>
 </html>
