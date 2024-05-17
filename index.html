@@ -21,11 +21,24 @@
                 warning: '#FF4240',
                 primary: '#131318',
               },
+              fontSize:{
+                28: "28px",
+                22: "22px"
+              },
               fontFamily:{
                 "manrope": ["Manrope"]
               },
+              lineHeight:{
+                26: "26px"
+              },
               maxWidth:{
                 container: "1170px"
+              },
+              spacing:{
+                100 : "100px",
+                120 : "120px",
+                607: "607px",
+                250: "250px",
               }
 
             }
@@ -36,8 +49,9 @@
 
 </head>
 <body class="font-manrope">
+  <div class="max-w-container mx-auto p-2.5">
+
     <header>
-      <div class="max-w-container mx-auto p-2.5">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -122,10 +136,41 @@
             <p class="text-sm md:text-base font-medium leading-[26px] mt-4 text-white/60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
          </div>
         </div>
-       
-      </div>
+        <!-- banner slider part end -->
     </header>
 
+    <main>
+      <section class="professional_hockeys_club mt-10 md:mt-100">
+             <div class="text-center mx-auto py-8 border-y border-dashed border-primary/20">
+                 <h2 class="text-primary text-22 md:text-4xl font-extrabold">Professional Hockeys Club</h2>
+                 <p class="text-primary/60 text-sm md:text-base font-medium leading-26 mt-6 max-w-607 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+             </div>
+             <div class="flex flex-wrap md:flex-nowrap gap-x-10 mt-12">
+                  <div class="text-center w-full md:w-3/12 mb-6 md:mb-0">
+                    <div class="radial-progress text-[#FF4240]" style="--value:87; --size:10rem" role="progressbar"><span class="text-primary text-28 font-extrabold">87%</span></div>
+                    <h3 class="text-primary text-xl font-bold mt-5 mb-3">Prayer Facility</h3>
+                    <p class="text-primary/60 text-base font-medium leading-26 mx-auto w-250">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                  </div>
+                  <div class="text-center w-full md:w-3/12 mb-6 md:mb-0">
+                    <div class="radial-progress text-[#49D293]" style="--value:95; --size:10rem" role="progressbar"><span class="text-primary text-28 font-extrabold">95%</span></div>
+                    <h3 class="text-primary text-xl font-bold mt-5 mb-3">Experienced Coach</h3>
+                    <p class="text-primary/60 text-base font-medium leading-26 mx-auto w-250">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                  </div>
+                  <div class="text-center w-full md:w-3/12 mb-6 md:mb-0">
+                    <div class="radial-progress text-[#FFB546]" style="--value:90; --size:10rem" role="progressbar"><span class="text-primary text-28 font-extrabold">90%</span></div>
+                    <h3 class="text-primary text-xl font-bold mt-5 mb-3">Senior Player</h3>
+                    <p class="text-primary/60 text-base font-medium leading-26 mx-auto w-250">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                  </div>
+                  <div class="text-center w-full md:w-3/12 mb-6 md:mb-0">
+                    <div class="radial-progress text-[#4C8DF1]" style="--value:80; --size:10rem" role="progressbar"><span class="text-primary text-28 font-extrabold">80%</span></div>
+                    <h3 class="text-primary text-xl font-bold mt-5 mb-3">Training Ground</h3>
+                    <p class="text-primary/60 text-base font-medium leading-26 mx-auto w-250">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                  </div>
+             </div>
+      </section>
+      <!-- professional hockeys club -->
+    </main>
 
+  </div>
 </body>
 </html>
